@@ -1,0 +1,2 @@
+# Verdict
+Social Verdict App
