@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Recorder</title>
+</head>
+<body>
+    <h1>Video Recorder</h1>
+    <video id="video" width="640" height="480" autoplay></video>
+    <button id="startButton">Start Recording</button>
+    <button id="stopButton" disabled>Stop Recording</button>
+    <form id="uploadForm" action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" id="videoFile" name="video" accept="video/*" hidden>
+        <button type="submit" id="uploadButton" disabled>Upload Video</button>
+    </form>
+    <script src="js/recorder.js"></script>
+</body>
+</html>
