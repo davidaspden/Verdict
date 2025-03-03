@@ -1,0 +1,14 @@
+{
+  "name": "verdict",
+  "version": "1.0.0",
+  "description": "Social Verdict App",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "echo 'Building project...'"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "ffmpeg": "0.0.4"
+  }
+}
